@@ -1,0 +1,158 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:tp="http://player.theplatform.com/" xmlns:og="http://ogp.me/ns#" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>PDK6 Tester</title>
+	<link rel="alternate" href="https://feed.theplatform.com/f/IfSiAC/ejuzSCCX1CS6?form=rss&params=policy%3D102041354&linkUrl=https%3A%2F%2Fhvcplayer.haivision.com%2Fp%2FIfSiAC%2FPDK6Tester%2Fselect%2Fmedia%2F%7BmediaPid%7D" type="application/rss+xml" />
+	<meta name="tp:PreferredRuntimes" content="universal" />
+	<meta name="tp:PreferredFormats" content="M3U,MPEG4,MP3" />
+	<meta name="tp:EnableExternalController" content="true" />
+	<link rel="alternate" href="https://link.theplatform.com/s/IfSiAC/media/Meridian?auto=true&player=PDK6%20Tester&policy=102041354" type="application/smil+xml" />
+
+	<meta property="og:url" content="https://hvcplayer.haivision.com/p/IfSiAC/PDK6Tester/select/media/Meridian" />
+	<meta property="og:title" content="Meridian (HDR UHD)"/>
+	<meta property="og:description" content="In 1947 Los Angeles, the disappearance of four men, including his own detective, leads a police captain to a cavern where an eerie discovery awaits..." />
+	<meta property="og:type" content="movie"/>
+	<meta property="og:image" content="https://haivisionmwaf-a.akamaihd.net/file/Haivision_Eric_Holbrook/530/615/(NXTwap.eu.org)Real_4K_HDR_60fps-_Netflix_Meridian_in_HDR_UHD_(Chromecast_Ultra)_640x360_1390542403726.jpg"/>
+	<meta name="twitter:card" content="player"/>
+	<meta name="twitter:player" content="https://hvcplayer.haivision.com/p/IfSiAC/PDK6Tester/embed/select/media/Meridian?autoPlay=false"/>
+	<meta name="twitter:player:width" content="480"/>
+	<meta name="twitter:player:height" content="270"/>
+	<style type="text/css" media="screen">
+        body {
+            margin: 0px;
+            background-color: #131313;
+        }
+		.tpContainer {
+			position: relative;
+			width: 480px;
+			height: 270px;
+			padding-top: 5px;
+			padding-left: 5px;
+			padding-bottom: 5px;
+			padding-right: 5px;
+			background-image: url(https://pdk.theplatform.com/next/images/tile.jpg);
+			background-position: top;
+			background-repeat: repeat;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		.tpLayout {
+			position: relative;
+		}
+		.tpMessage {
+			font-size: 14px;
+			color: #bebebe;
+			background: #131313;
+		}
+		#player {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 480px;
+			height: 270px;
+		}
+		#releases {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 1px;
+			height: 1px;
+		}
+		.tpLayout #player {
+			--background-color: #131313;
+			--control-background-color: #131313;
+			--control-color: #bebebe;
+			--control-frame-color: #555555;
+			--control-highlight-color: #242424;
+			--control-hover-color: #dddddd;
+			--control-selected-color: #87b824;
+			--frame-color: #555555;
+			--load-progress-color: #bebebe;
+			--play-progress-color: #87b824;
+			--scrub-track-color: #bebebe;
+			--scrubber-color: #bebebe;
+			--scrubber-frame-color: #87b824;
+			--text-background-color: #131313;
+			--text-color: #bebebe;
+		}
+		.tpLayout #releases {
+			--background-color: #131313;
+			--frame-color: #555555;
+			--item-background-color: #131313;
+			--item-background-hover-color: #131313;
+			--item-background-selected-color: #131313;
+			--item-frame-color: #242424;
+			--item-shine-hover-color: #dddddd;
+			--item-shine-selected-color: #87b824;
+			--text-background-color: #131313;
+			--text-color: #bebebe;
+			--text-frame-color: #242424;
+			--text-highlight-hover-color: #dddddd;
+			--text-highlight-selected-color: #87b824;
+			--text-hover-color: #dddddd;
+			--text-selected-color: #87b824;
+			--thumbnail-background-color: #131313;
+			--thumbnail-frame-color: #242424;
+			--thumbnail-highlight-hover-color: #dddddd;
+			--thumbnail-highlight-selected-color: #87b824;
+			--thumbnail-padding-color: #131313;
+		}
+	</style>
+	<script type="text/javascript" src="https://pdk.theplatform.com/pdk6/6.1.0/pdk/player.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="https://pdk.theplatform.com/pdk6/6.1.0/pdk/skins/smooth.css" />
+</head>
+<body>
+	<div class="tpContainer">
+		<div class="tpLayout">
+			<div class="tpPlayer" id="player"
+				tp:allowFullScreen="true"
+				tp:showNav="false"
+				tp:allowRss="true"
+				tp:releaseUrl="https://link.theplatform.com/s/IfSiAC/media/Meridian?auto=true&amp;player=PDK6%20Tester&amp;policy=102041354"
+				tp:autoPlay="false"
+				tp:playAll="true"
+				tp:emailServiceURL="https://hvcplayer.haivision.com/m/IfSiAC/PDK6Tester/select/media/{mediaPid}"
+				tp:relatedItemsUrl="https://feed.theplatform.com/f/IfSiAC/ejuzSCCX1CS6?byRelatedId={id}&amp;params=auto%3Dtrue"
+				tp:allowLink="true"
+				tp:playerUrl="https://hvcplayer.haivision.com/p/IfSiAC/PDK6Tester/select/media/{mediaPid}"
+				tp:embeddedPlayerHtml="&lt;iframe src=&quot;https://hvcplayer.haivision.com/p/IfSiAC/PDK6Tester/embed/select/media/{mediaPid}&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; seamless=&quot;seamless&quot; allowfullscreen&gt;Your browser does not support iframes.&lt;/iframe&gt;"
+				tp:showFullTime="true"
+				tp:controls="full"
+				tp:pluginSp.min="type=tracking|url=https://smartplugin.youbora.com/v6/js/adapters/theplatform6/6.5.5/sp.min.js|extraparams={tp_aid},caballo|accountCode=haivision|deferred=false"
+				tp:customer="HAIV">
+				<noscript class="tpError">To view this site, you need to have JavaScript enabled in your browser.</noscript>
+			</div>
+			<script type="text/javascript">
+				$pdk.bind("player");
+			</script>
+			<div class="tpReleaseList" id="releases"
+				tp:allowScrolling="false"
+				tp:columns="1"
+				tp:itemsPerPage="10"
+				tp:autoLoad="false"
+				tp:autoPlay="false"
+				tp:showAirdate="false"
+				tp:showAuthor="false"
+				tp:showBitrate="false"
+				tp:showDescription="true"
+				tp:showFormat="false"
+				tp:showLength="true"
+				tp:showThumbnail="false"
+				tp:showTitle="true"
+				tp:thumbnailWidth="160"
+				tp:thumbnailHeight="90">
+			</div>
+			<div class="tpReleaseModel" id="tpReleaseModel1"
+				tp:startIndex="1"
+				tp:endIndex="10"
+				tp:params="params=policy%3D102041354%26auto%3Dtrue%26player%3DPDK6%2520Tester"
+				tp:shuffle="false"
+				tp:feedsServiceURL="https://feed.theplatform.com/f/IfSiAC/ejuzSCCX1CS6">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
